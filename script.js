@@ -71,8 +71,6 @@ var bricks = [];
             b.status = 0;
             score++;
             if (score == brickRowCount * brickColumnCount) {
-              level = 2;
-              alert("You have cleared the map!");
               document.location.reload();
             }
           }
